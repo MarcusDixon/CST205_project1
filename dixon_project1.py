@@ -1,19 +1,18 @@
-#Marcus Dixon
-#CST 205
-#Project 1
+#Names: Chanel Aquino and Marcus Dixon
+#Date Due: 12 February 2016
 #Description: CST205 Project 1 Image manipulation to replace undesireable pixels in a set of otherwise similar images.
 
-folder = "file path"
+#save image folder path
+folder = pickAFolder()
 
-#create an array list of pictures
+#create an empty list of pictures
 pictures = []
 
-#append the chosen image to the pictures list
-for i in range(0, 9):
-	imageFile = pickAFile()
-	imageDisplay = makePicture(imageFile)
-	pictures.append(imageDisplay)
-
+#add all images to the pictures list
+for i in range(1, 10):
+    image = makePicture(folder + str(i) + ".png")
+    pictures.append(image)
+    
 #create an empty picture for the final image
 finalImage = makeEmptyPicture(495, 557)
 
