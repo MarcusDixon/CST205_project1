@@ -1,6 +1,8 @@
-#Names: Chanel Aquino and Marcus Dixon
-#Date Due: 12 February 2016
-#Description: CST205 Project 1 Image manipulation to replace undesireable pixels in a set of otherwise similar images.
+#Names:        Marcus Dixon and Chanel Aquino
+#Date Due:     12 February 2016
+#Description:  CST205 Project 1 Image manipulation to replace undesireable pixels in a set of otherwise similar images.
+#github:       https://github.com/MarcusDixon/CST205_project1.git
+
 
 #save image folder path
 folder = pickAFolder()
